@@ -10,12 +10,14 @@ section > .container > div {
   line-height: 200px;
   text-align: center;
 }
-.nested {
-  padding: 5px 1%;
+
+[class*="col-"] > .container {
+  padding: 5px;
 }
-.nested > .container > div {
+
+[class*="col-"] > .container > [class*="col-"] {
   background-color: #f57b78;
-  border: 2px white solid;
+  border:white solid 2px;
   height: 185px;
   line-height: 185px;
   text-align: center;
