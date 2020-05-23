@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  border: solid 3px black;
+  margin: 50px auto;
+  max-width: 600px;
+  position: relative;
+}
+
+ [class*="col-"] {
+   height: 80px;
+ }
+
+section > .container > [class*="col-"] {
+  background-color:#ededed;
+  border: solid 1px lightgrey;
+}
+
+.col-6 {
+   background-color: white;
+ }
+
+img {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50% , -50%);
+  width: 200px;
+}
